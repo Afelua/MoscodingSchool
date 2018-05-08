@@ -1,0 +1,33 @@
+
+@font-face{
+  src: url('fonts/ProximaNova-Light.otf');
+  font-family: ProximaNova;
+  font-weight: 100;
+}
+
+@font-face{
+  src: url('fonts/ProximaNova-Reg.otf');
+  font-family: ProximaNova;
+  font-weight: 400;
+}
+
+@font-face{
+  src: url('fonts/ProximaNova-Bold.otf');
+  font-family: ProximaNova;
+  font-weight: 700;
+}
+
+.class1{
+  font-family: ProximaNova;
+  font-weight: 100;
+}
+
+.class2{
+  font-family: ProximaNova;
+  font-weight: 400;
+}
+
+.class3{
+  font-family: ProximaNova;
+  font-weight: 700;
+}

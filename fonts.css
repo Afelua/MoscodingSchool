@@ -1,0 +1,23 @@
+/* Добавление шрифта вторым способом */
+@font-face{
+  src: url('fonts/ProximaNova-Reg.otf');
+  font-family: ProximaNova;
+  font-weight: 400;
+}
+
+.benefits__link{
+  font-family: ProximaNova, sans-serif;
+  font-weight: 400;
+}
+
+
+/* Добавление шрифта первым способом */
+.benefits__title{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.info-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
