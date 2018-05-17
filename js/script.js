@@ -1,34 +1,40 @@
-var a = 3;
-var b = 5;
+for (i=0; i<3; i++){
+  console.log(i);
+}
 
-var sum = a + b;
+var name = "Света";
 
-console.log(sum);
+function Sum(a, b){
+  console.log(a * b);
+}
+
+console.log(name);
+Sum(3, 7);
+
+Sum(1, 2);
+
+Sum(2, 5);
 
 
-var d = 4;
-var e = 6;
-
-var sum2 = d + e;
-
-console.log(sum2);
 
 
-var text1 = "Пара";
-var text2 = "воз";
+function ShowName(){
+  var manName = "Сергей";
 
-var text3 = text1 + text2;
+  console.log(name);
+}
 
-console.log(text3);
+ShowName();
 
-var i = 5;
 
-if (i >= 5){
-  console.log('Значение i: ' + i);
+
+var user = {
+  name: 'Василика',
+  isAdmin: true,
+  writeName(){
+    alert('Привет, ' + this.name);
+  }
 }
 
 
-var myVar = 10;
-
-confirm('Вы - администратор?');
-
+user.writeName()
